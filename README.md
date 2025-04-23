@@ -1,0 +1,1 @@
+This project implements a Part-of-Speech (POS) Tagger using a Hidden Markov Model (HMM) and the Viterbi algorithm. The goal is to accurately assign syntactic categories (e.g., noun, verb, determiner) to each word in a sentence, even when words are ambiguous
