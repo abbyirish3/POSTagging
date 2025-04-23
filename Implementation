@@ -1,0 +1,19 @@
+Training: The HMM is trained by parsing aligned sentence/tag pairs to estimate the transition probabilities between POS tags and the observation probabilities of words given tags
+- I first made a pass through the training data to count transitions and emissions.
+- these counts were then normalized into probabilities and converted to log space for decoding.
+- I preserved capitalization in the training examples but opted to lowercase all words to reduce sparsity in the vocabulary.
+- I used Maps to track transitions and observations
+
+Viterbi Decoding: used to find the most likely sequence of tags for an input sentence
+- I tracked the best score and corresponding backpointer for each tag.
+- used an "unseen word penalty" for unknown word/tag combinations.
+- to reconstruct the best tag sequence, I performed a backtrace from the final tag with the best score, following the stored backpointers to the beginning of the sentence.
+
+Testing & Evaluation: 
+- first tested hardcoded examples 
+- also implemented user console testing to check random sentences
+- then moved onto file based testing 
+- created a function for scoring to report the number of correct tags and the accuracy rate for a given input
+
+K-Fold Cross Validation
+- I lastly split the data into k-folds, using one fold as the test set and the other k-1 as training sets
