@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 /**
- * HMM code to split dataset into partitions
+ * code to split dataset into partitions
  * and implement cross-validation
  *
  * @author Abigail Irish
