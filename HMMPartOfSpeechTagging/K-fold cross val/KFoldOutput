@@ -1,0 +1,18 @@
+Running Fold 1/5
+Fold 1 Accuracy: 83.46935952413888%
+
+Running Fold 2/5
+Fold 2 Accuracy: 81.6432865731463%
+
+Running Fold 3/5
+Fold 3 Accuracy: 85.0858818600754%
+
+Running Fold 4/5
+Fold 4 Accuracy: 85.97077244258872%
+
+Running Fold 5/5
+Fold 5 Accuracy: 83.50149986364876%
+
+Average Cross-Validation Accuracy: 83.9341600527196%
+
+Process finished with exit code 0

@@ -1,0 +1,48 @@
+Sentence: a dog eats
+Predicted Tags: [DET, NOUN, VERB]
+testing file: simple-test-sentences.txt
+Number of correct tags: 37
+
+Number of incorrect tags: 0
+
+Accuracy: 100.0%
+testing file: simple-train-sentences.txt
+Number of correct tags: 59
+
+Number of incorrect tags: 0
+
+Accuracy: 100.0%
+testing file: brown-test-sentences.txt
+Number of correct tags: 34171
+
+Number of incorrect tags: 2223
+
+Accuracy: 93.89185030499533%
+testing file: brown-train-sentences.txt
+Number of correct tags: 482962
+
+Number of incorrect tags: 96700
+
+Accuracy: 83.31786454865076%
+Starting the console test...
+Please type your input sentence and press enter.
+Type 'stop' when you want to finish the console test.
+i love computer science
+Predicted Tags for Sentence: i love computer science
+Predicted Tags: [PRO, N, V, P]
+will you cook me salmon
+Predicted Tags for Sentence: will you cook me salmon
+Predicted Tags: [PRO, N, V, P, DET]
+Shall I compare thee to a summer day
+Predicted Tags for Sentence: shall i compare thee to a summer day
+Predicted Tags: [PRO, N, P, V, P, DET, N, V]
+I dropped my phon
+Predicted Tags for Sentence: i dropped my phon
+Predicted Tags: [PRO, V, PRO, N]
+wow, CS10 is a hard class
+Predicted Tags for Sentence: wow, cs10 is a hard class
+Predicted Tags: [PRO, N, V, P, DET, N]
+stop
+Stopping console test...
+
+Process finished with exit code 0
